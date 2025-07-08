@@ -8,10 +8,9 @@ import { createBrowserRouter,RouterProvider } from 'react-router-dom'
 import App from './App.jsx'
 import Error from './Components/Error.jsx'
 import Homepage from './Components/Homepage.jsx'
-import BookCard from './Components/BookCard.jsx'
 import BookDetails from './Components/BookDetails.jsx'
-import { Provider, useDispatch } from 'react-redux'
-import bookStore from './Components/BookStore'
+import { Provider } from 'react-redux'
+import bookStore from './Components/bookStore.js'
 
 let routers = createBrowserRouter([
 {
