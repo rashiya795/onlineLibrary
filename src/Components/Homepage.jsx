@@ -115,7 +115,7 @@ export default function Homepage() {
   (
 <div key={book.id} className="bg-rose-400 shadow-lg transition duration-300 ease-in-out hover:scale-105 hover:shadow-2xl hover:brightness-120 shadow-rose-800 lg:h-55 w-35 p-2 rounded-lg m">
 <img className="lg:h-40 h-45  rounded-lg m-auto" src={book.image} ></img>
-<p className="font-bold font-mono p-2 ">{book.title.slice(0,5)}..<a href={`/booksDetails/${book.id}`}className="cursor-pointer  text-blue-950 underline ">Know More</a>
+<p className="font-bold font-mono p-2 ">{book.title.slice(0,5)}..<Link to={`/booksDetails/${book.id}`}className="cursor-pointer  text-blue-950 underline ">Know More</Link>
 </p>
 
 </div> 
